@@ -1,0 +1,73 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "meal buddy",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "getNameIntent",
+                    "slots": [
+                        {
+                            "name": "firstname",
+                            "type": "AMAZON.US_FIRST_NAME"
+                        }
+                    ],
+                    "samples": [
+                        "He's {firstname}",
+                        "She's {firstname}",
+                        "{firstname} is getting fed",
+                        "It's {firstname}",
+                        "{firstname}"
+                    ]
+                },
+                {
+                    "name": "getMinutesIntent",
+                    "slots": [
+                        {
+                            "name": "minutes",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "Nag her for {minutes}",
+                        "Nag her for {minutes} minutes",
+                        "Nag him for {minutes} minutes",
+                        "Nag him for {minutes}",
+                        "{minutes}",
+                        "{minutes} minutes",
+                        "For {minutes} minutes",
+                        "For {minutes}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
